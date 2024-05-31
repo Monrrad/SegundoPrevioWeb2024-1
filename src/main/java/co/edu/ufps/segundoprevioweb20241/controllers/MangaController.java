@@ -1,10 +1,10 @@
-package controllers;
+package co.edu.ufps.segundoprevioweb20241.controllers;
 
-import entities.Manga;
+import co.edu.ufps.segundoprevioweb20241.services.MangaService;
+import co.edu.ufps.segundoprevioweb20241.entities.Manga;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import services.MangaService;
 
 import java.util.List;
 

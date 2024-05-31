@@ -1,11 +1,11 @@
-package services;
+package co.edu.ufps.segundoprevioweb20241.services;
 
-import entities.Manga;
+import co.edu.ufps.segundoprevioweb20241.repositories.MangaRepository;
+import co.edu.ufps.segundoprevioweb20241.entities.Manga;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repositories.MangaRepository;
-import repositories.PaisRepository;
-import repositories.TipoRepository;
+import co.edu.ufps.segundoprevioweb20241.repositories.PaisRepository;
+import co.edu.ufps.segundoprevioweb20241.repositories.TipoRepository;
 
 import java.util.List;
 

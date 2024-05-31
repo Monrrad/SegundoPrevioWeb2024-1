@@ -1,10 +1,10 @@
-package models;
+package co.edu.ufps.segundoprevioweb20241.models;
 
 import lombok.Data;
 
 import java.time.LocalDate;
 
-public class MangaDTO {
+
     @Data
     public class MangaDTO {
 
@@ -18,4 +18,4 @@ public class MangaDTO {
         private TipoDTO tipo;
 
     }
-}
+

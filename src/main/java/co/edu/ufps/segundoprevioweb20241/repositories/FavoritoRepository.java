@@ -1,6 +1,6 @@
-package repositories;
+package co.edu.ufps.segundoprevioweb20241.repositories;
 
-import entities.Favorito;
+import co.edu.ufps.segundoprevioweb20241.entities.Favorito;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 

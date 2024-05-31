@@ -1,4 +1,4 @@
-package entities;
+package co.edu.ufps.segundoprevioweb20241.entities;
 import jakarta.persistence.*;
 import lombok.Data;
 
