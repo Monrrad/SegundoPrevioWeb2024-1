@@ -13,10 +13,10 @@ public class Manga {
     private Integer id;
     private String nombre;
     private LocalDate fechaLanzamiento;
-    private int temporadas;
-    private boolean anime;
-    private boolean juego;
-    private boolean pelicula;
+    private Integer temporadas;
+    private Integer anime;
+    private Integer juego;
+    private Integer pelicula;
 
     @ManyToOne
     @JoinColumn(name = "pais_id")
